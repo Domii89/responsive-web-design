@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My first responsive blog!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="rwd.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="rwd.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="nav-wrapper">
+            <div class="logo">
+                <strong>PRASKIE ZACHWYTY</strong>
+            </div>
+            <div class="burger-icon"><i class="fas fa-bars"></i> MENU</div>
+            <ul class="nav-items main-nav mobile-hide">
+                <li class="list-item"><a href="#"><i class="fas fa-home"></i></a></li>
+                <li class="list-item"><a href="#">Galeria</a></li>
+                <li class="list-item"><a href="#">Artykuły</a></li>
+                <li class="list-item"><a href="#">O mnie</a></li>
+                <li class="list-item"><a href="#">Produkty</a></li>
+                <li class="list-item"><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="main-wrapper">
+            <div class="wrapper">
+                <div class="featured">
+                    <div id="meta">Domi Nika</div>
+                    <h1>Bajeczne Ogrody Pałacowe pod Praskim Hradem jesienią</h1>
+                    <span id="hero-date">Marzec 5, 2020</span>
+                </div>
+                <div class="sub-featured">
+                    <div class="sub1">
+                        <h3>Słoneczne</h3>
+                    </div>
+                    <div class="sub2">
+                        <h3>Ciche</h3>
+                    </div>
+                    <div class="sub3">
+                        <h3>Zniewalające</h3>
+                    </div>
+                </div>
+                <div class="main-content">
+                    <p>To kompleks pięciu różnych ogrodów, który znajduje się tuż pod kompleksem zamkowym na Hradczanach. Do Ogrodów, prowadzi tylko jedno wejście – od ulicy Valdštejnskiej (przy numerze 14). Pierwsze, co objawi się naszym oczom to dziedziniec, który jest prawie tak samo uroczy, co reszta ogrodu. Wejdziemy po schodkach na górę, dopiero tutaj znajduje się kasa.</p>
+                    <p>Jeśli chodzi o koszty wstępu: jeszcze do niedawna bilet normalny kosztował 100 Kč, jednak dwa ogrody z pięciu (Ogród Ledeburski oraz Mały Ogród Palffyovski) w 2020 r. będą zamknięte, co prawdopodobnie obniży koszt wstępu. Wstęp chyba kosztuje 80 Kč, ale głowy sobie nie dam uciąć ;-)</p>
+                    <p>Wielka szkoda, że w najbliższym sezonie te dwa ogrody będą zamknięte. Szczególnie Ledeburski jest przepiękny. Ale faktem jest, że trochę “się sypie”, dlatego nic dziwnego, że poddawany jest renowacji. W wielu miejscach na murach odlatuje tynk, wypada to w końcu odświeżyć.</p>
+                    <p>Nie chciałabym, żeby mój wpis był kolejną stroną powielającą treści i sztywno opisującą poszczególne ogrody. Nie jest moim zamiarem opowiadać o historii każdego z ogrodów. To będzie spacer. Pomimo faktu, że są to przestrzenie podzielone murkami, schodkami, to czuje się, jakby kompleks był całością. Nie czuje się, że przechodzimy z jednej krainy do drugiej. To jest jedna, wielka kolorowa kraina!</p>
+                    </div>
+                <div class="main-sidebar">
+                    <div class="email-digest-subscription">
+                        <h2>Bądź na bieżąco</h2>
+                        <p>Zapisz się do newslettera, a będę wysyłać Ci co tydzień maila z ciekawostkami!</p>
+                        <form id="subscribe" action="#" accept-charset="UTF-8" method="post">
+                            <input placeholder="adres e-mail" class="email" name="email" id="email" type="email">
+                            <button name="button" type="submit" class="subscribe">Zapisuję się!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="foot1">
+                <h3 class="logoFoot">PRASKIE ZACHWYTY</h3>
+                <p>Staroměstské náměstí, Praha</p>
+                <p>The best place on earth.</p>
+                <p>Come and see for yourself!</p>
+            </div>
+            <div class="foot2">
+                <h4>Awesome Links</h4>
+                <ul class="links">
+                    <p><i class="fas fa-arrow-right"></i><a href="http://prague.eu" target="_blank"> Official Prague Site</a></p>
+                    <p><i class="fas fa-arrow-right"></i><a href="https://pocasi.seznam.cz/praha" target="_blank"> Prague Forecast</a></p>
+                    <p><i class="fas fa-arrow-right"></i><a href="https://www.dpp.cz" target="_blank"> Prague Transport</a></p>
+                </ul>
+            </div>
+            <div class="foot3">
+                <h4>Blurbs</h4>
+            </div>
+            <div class="foot4">
+                <h4>Social Media</h4>
+                <ul class="socialIcons">
+                    <li><div class="facebook-icon"></div><i class="fab fa-facebook fa-2x"></i></li>
+                    <li><div class="instagram-icon"></div><i class="fab fa-instagram fa-2x"></i></li>
+                    <li><div class="twitter-icon"></div><i class="fab fa-twitter fa-2x"></i></li>
+                    <li><div class="pinterest-icon"></div><i class="fab fa-pinterest fa-2x"></i></li>
+                </ul>
+            </div>
+            <div class="copyright">Domi Domi Domi, 2020</div>
+        </footer>
+    </body>
+</html>
